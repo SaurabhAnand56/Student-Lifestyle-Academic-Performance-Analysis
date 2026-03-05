@@ -121,10 +121,10 @@ The stronger the color, the stronger the relationship.
 I also built an **interactive dashboard** in Power BI with filters for gender, mental health, internet quality, and parent education.
 
 ### Dashboard Overview
-![Dashboard Overview](images/dashboard_overview.png)
+![Dashboard Overview](images/Academic Performance Overview.png)
 
 ### Dashboard Deep Dive
-![Dashboard Detail](images/dashboard_detail.png)
+![Dashboard Detail](images/Student Lifestyle Insights.png)
 
 ---
 
