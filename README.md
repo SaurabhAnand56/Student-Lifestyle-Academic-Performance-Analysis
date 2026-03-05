@@ -7,6 +7,16 @@ I analyzed data of 15,000 students to find out what habits affect their exam sco
 
 ---
 
+## 📊 Power BI Dashboard
+
+### Overview
+![Dashboard Overview](images/Academic-Performance-Overview.png)
+
+### Deep Dive
+![Dashboard Detail](images/Student-Lifestyle-Insights.png)
+
+---
+
 ## 🤔 What Questions I Tried to Answer
 
 - Does studying more actually improve scores?
@@ -54,17 +64,12 @@ Each row = one student. Each column = one detail about that student.
 df = pd.read_csv("student_digital_life.csv")
 df.head()  # shows first 5 rows
 ```
-Just to make sure the file loaded and see what it looks like.
-
----
 
 ### 2. Checked for problems
 ```python
 df.isnull().sum()     # missing values? → None ✅
 df.duplicated().sum() # duplicate rows? → None ✅
 ```
-
----
 
 ### 3. Created a new column
 ```python
@@ -74,57 +79,35 @@ df["total_screen_time"] = (
     df["streaming_hours"]
 )
 ```
-I added all screen time together into one column called `total_screen_time`.  
-This is called **feature engineering** — making a new, more useful column from existing ones.
-
----
+Combined all screen time into one column — this is called **feature engineering**.
 
 ### 4. Explored each column (Univariate Analysis)
-I made charts for individual columns to understand the data better.
+Made charts for individual columns to understand distributions.
 
 - Most students study **3–6 hours/day**
 - Many students use their phone **5+ hours/day**
 - Age is mostly between **18–23**
 
----
-
 ### 5. Compared columns to exam scores (Bivariate Analysis)
-I made scatter plots to see if two things are related.
+Made scatter plots to see relationships.
 
 - More study hours → Higher exam scores ✅
 - More attendance → Higher scores ✅
 - More screen time → Slightly lower scores 📉
 
----
-
 ### 6. Looked at groups (Categorical Analysis)
-Used box plots to compare exam scores across groups.
+Used box plots to compare scores across groups.
 
-- **Mental health matters** — Good health = avg score 84, Poor = avg score 73
-- **Gender doesn't matter much** — Male and Female scores are nearly the same
-
----
+- **Mental health matters** — Good = avg 84, Poor = avg 73
+- **Gender doesn't matter** — scores are nearly the same
 
 ### 7. Correlation Heatmap
-A heatmap shows which columns are related to each other.  
-The stronger the color, the stronger the relationship.
+Shows which columns are most related to exam scores.
 
-**Most related to exam scores:**
+**Top factors affecting exam score:**
 - Study hours
 - Class attendance
 - Assignment completion
-
----
-
-## 📊 Power BI Dashboard
-
-I also built an **interactive dashboard** in Power BI with filters for gender, mental health, internet quality, and parent education.
-
-### Dashboard Overview
-![Dashboard Overview](images/Academic Performance Overview.png)
-
-### Dashboard Deep Dive
-![Dashboard Detail](images/Student Lifestyle Insights.png)
 
 ---
 
@@ -132,7 +115,7 @@ I also built an **interactive dashboard** in Power BI with filters for gender, m
 
 1. **Study hours are the #1 factor** — students who study more score higher
 2. **Attendance really matters** — skipping class hurts your grade
-3. **Mental health affects grades** — students with poor mental health score ~11 points lower on average
+3. **Mental health affects grades** — poor mental health = ~11 points lower on average
 4. **Gender has no effect** on exam scores in this dataset
 5. **Too much screen time** has a small negative effect on scores
 
@@ -148,5 +131,5 @@ If you're also stuck in tutorial hell, just start. The learning happens when you
 
 ## 📬 Let's Connect
 
-[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yourusername)
+[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/SaurabhAnand56)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/saurabhanand56)
