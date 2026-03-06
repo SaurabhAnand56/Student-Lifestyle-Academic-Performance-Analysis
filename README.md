@@ -9,10 +9,12 @@ I analyzed data of 15,000 students to find out what habits affect their exam sco
 
 ## 📊 Power BI Dashboard
 
-### Overview
+### 🔴 [👉 Click here to view the Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZWJkZTdhYzMtZTRjMS00ZTg0LWFjYjktOTA4NTlmNjMyY2NkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+
+### Academic Performance Overview
 ![Dashboard Overview](images/Academic-Performance-Overview.png)
 
-### Deep Dive
+### Student Lifestyle Insights
 ![Dashboard Detail](images/Student-Lifestyle-Insights.png)
 
 ---
@@ -132,4 +134,4 @@ If you're also stuck in tutorial hell, just start. The learning happens when you
 ## 📬 Let's Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/SaurabhAnand56)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/saurabhanand56)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/saurabhanand56)
