@@ -16,7 +16,7 @@
 
 | Demo | Link |
 |------|------|
-| 🤖 **Streamlit ML App** | *(deploy link here after deploying)* |
+| 🤖 **Streamlit ML App** | [Click to view Live App](https://student-lifestyle-academic-performance-analyser.streamlit.app) |
 | 📊 **Power BI Dashboard** | [Click to view Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZWJkZTdhYzMtZTRjMS00ZTg0LWFjYjktOTA4NTlmNjMyY2NkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9) |
 
 ---
